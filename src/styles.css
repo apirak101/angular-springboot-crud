@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(90deg,rgba(187, 226, 252, 0.2)  0%,  rgba(140, 157, 175, 0.2) 100%);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

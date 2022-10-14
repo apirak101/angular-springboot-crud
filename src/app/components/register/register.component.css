@@ -1,0 +1,23 @@
+.btn-success{
+  color: rgb(255, 255, 255);
+}
+
+.btn-success:hover{
+  background: #fff;
+  color: rgb(0, 123, 27);
+}
+
+.btn-link{
+  text-decoration: none;
+}
+
+.btn-link:hover{
+  color: rgb(7, 57, 131);
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

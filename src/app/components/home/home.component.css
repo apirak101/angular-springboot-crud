@@ -1,0 +1,90 @@
+.container-home{
+  width: 60%;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: rgb(239, 249, 255);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+
+  border-radius: 5px;
+
+}
+
+.card-header{
+  width: 90%;
+  height: 100%;
+  margin: 15px;
+  text-align: center;
+  border: 1px solid rgb(228, 228, 228);
+  background: rgb(240, 248, 255);
+}
+
+.card-header>h3{
+  margin-top: 30px;
+  font-size: 34px;
+}
+
+.content-list{
+  width: 90%;
+  height: 100%;
+  background-color: rgb(240, 248, 255);
+  border: 1px solid rgb(228, 228, 228);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.list-text{
+
+  font-weight: bold;
+  margin: 5px;
+}
+
+.details-text{
+
+  font-weight: bold;
+  margin: 5px;
+}
+
+.price-list{
+
+  font-weight: bold;
+  margin: 5px;
+}
+
+.list{
+  margin: 5px;
+}
+
+.details{
+  margin: 5px;
+}
+
+.price{
+  margin: 5px;
+}
+
+.order{
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background: rgb(27, 162, 252);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+.order:hover{
+  border: 1px solid rgb(27, 162, 252);
+  color: rgb(27, 162, 252);
+  background: rgb(255, 255, 255);
+}

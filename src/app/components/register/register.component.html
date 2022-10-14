@@ -1,0 +1,34 @@
+<div class="container col-md-6">
+  <div class="card">
+    <div class="card-header">
+      <h3>SING UP</h3>
+    </div>
+    <div class="card-body">
+      <form >
+        <div class="form-group">
+          <label for="username">USERNAME</label>
+          <input [(ngModel)]="user.username" name="username" type="text" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="password">PASSWORD</label>
+          <input [(ngModel)]="user.password" name="password" type="password" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="cpassword">CONFORM PASSWORD</label>
+          <input [(ngModel)]="user.cpassword" name="cpassword" type="password" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="nickname">NICKNAME</label>
+          <input [(ngModel)]="user.nickname" name="nickname" type="text" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="email">EMAIL</label>
+          <input [(ngModel)]="user.email" name="email" type="email" class="form-control" required>
+        </div>
+        <hr>
+        <button (click)="userRegister()" class="btn btn-success">REGISTER</button>
+        <button (click)="SingIN()" class="btn btn btn-link">SING IN</button>
+      </form>
+    </div>
+  </div>
+</div>

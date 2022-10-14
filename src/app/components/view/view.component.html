@@ -1,0 +1,49 @@
+<div class="container-2">
+  <button (click)="View()" class="btn btn-info" style="margin-top: 50px;">View</button>
+  <button (click)="NewContent()" class="btn btn-info" style="margin-left: 10px; margin-top: 50px;">New Content</button>
+</div>
+
+<div class="header">
+  <div class="nav-left">
+    <div class="logo-name">Apirak</div>
+  </div>
+  <div class="nav-right">
+    <div class="login-btn">
+      <button (click)="Logout()" type="submit">LOGOUT</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <h3>CONTENT INCLUDED</h3>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover text-center">
+        <thead>
+          <tr>
+            <!-- <th>ID</th> -->
+            <th>LIST</th>
+            <th>DETAILS</th>
+            <th>PRICE</th>
+            <th>ACCIONES</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let contentt of contents" class="text-center">
+            <!-- <td>{{contentt.id}}</td> -->
+            <td>{{contentt.productName}}</td>
+            <td>{{contentt.content}}</td>
+            <td>{{contentt.price}}$</td>
+            <td>
+              <button (click)="Editer(contentt.id)" class="btn btn-warning">EDITER</button>
+              <button (click)="Delete(contentt.id)" class="btn btn-danger">DELETE</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

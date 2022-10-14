@@ -1,0 +1,69 @@
+
+
+.header{
+  display: flex;
+  width: 100%;
+  height: 13vh;
+
+
+  background: linear-gradient(90deg,rgba(27, 162, 252,0.8)  0%,  rgba(0, 36, 72, 0.9) 100%);
+  box-shadow: 1px 5px 15px rgba(5, 38, 63, 0.4);
+
+  position: relative;
+
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-left{
+  flex: 1;
+
+}
+
+.logo-name{
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  font-size: 64px;
+  text-shadow: 1px 5px 15px rgba(8, 72, 121, 0.5);
+  cursor: pointer;
+
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+
+.nav-right{
+  flex: 0;
+}
+
+.login-btn{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 23px;
+
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+}
+
+.login-btn > button {
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background: rgb(27, 162, 252);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 15px rgba(5, 38, 63, 0.5);
+}
+
+.login-btn > button:hover{
+  border: 1px solid rgb(27, 162, 252);
+  color: rgb(27, 162, 252);
+  background: rgb(255, 255, 255);
+}
+
+

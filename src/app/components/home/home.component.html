@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+
+<div class="container-home">
+  <div class="card-header">
+    <h3>PRODUCT LIST</h3>
+  </div>
+
+  <div class="content-list" *ngFor="let contentt of contents">
+    <div class="list-text">LIST</div>
+    <div class="list">{{contentt.productName}}</div>
+    <div class="details-text">DETAILS</div>
+    <div class="details">{{contentt.content}}</div>
+    <div class="price-list">PRICE</div>
+    <div class="price">{{contentt.price}}$</div>
+
+    <button class="order" (click)="Order()">ORDER</button>
+  </div>
+</div>
